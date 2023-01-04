@@ -8,10 +8,22 @@ import Message from './component/Message'
 import FunctionClick from './component/FunctionClick'
 import ClassClick from './component/ClassClick';
 import EventBind from './component/EventBind';
-
+import ParentComponent from './component/ParentComponent';
+import UserGreeting from './component/UserGreeting';
+import NameList from './component/NameList';
+import Stylesheet from './component/Stylesheet';
+import Inline from './component/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
+import Form from './component/Form'
+import LifecycleA from './component/LifecycleA';
+import FragmentDemo from './component/FragmentDemo';
+import Table from './component/Table';
+import ParentComp from './component/ParentComp';
 
 class App extends Component{
   render(){
+
     return(
       <div className="App">
         
@@ -31,7 +43,20 @@ class App extends Component{
         <FunctionClick/>
         <ClassClick/> */}
 
-        <EventBind/>
+        {/* <EventBind/> */}
+        {/* <ParentComponent/> */}
+        {/* <UserGreeting/> */}
+        {/* <NameList/> */}
+        {/* <Stylesheet primary={true}/> */}
+          {/* <Inline/>
+          <h1 className='error'>Error</h1>
+           <h1 className={styles.success}>Success</h1> */}
+          {/* <Form/> */}
+          {/* <LifecycleA/> */}
+          {/* <FragmentDemo/> */}
+          {/* <Table/> */}
+          <ParentComp/>
+          
 
 
         </div>
